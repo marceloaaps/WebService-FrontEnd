@@ -1,0 +1,104 @@
+.product-list-page {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: auto;
+}
+
+.product-list-page h1 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 1.8em;
+}
+
+.product-list-page button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 20px;
+    display: inline-block;
+    font-size: 1em;
+}
+
+.product-list-page button:hover {
+    background-color: #45a049;
+}
+
+.product-list-page table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-list-page th,
+.product-list-page td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.product-list-page th {
+    background-color: #4caf50;
+    color: white;
+    text-transform: uppercase;
+}
+
+.product-list-page td {
+    background-color: #f9f9f9;
+}
+
+.product-list-page tr:hover {
+    background-color: #f1f1f1;
+}
+
+.product-list-page td button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+    font-size: 0.9em;
+    transition: background-color 0.3s;
+}
+
+.product-list-page td button:hover {
+    background-color: #e41f1f;
+}
+
+.product-list-page td button.edit {
+    background-color: #008CBA;
+}
+
+.product-list-page td button.edit:hover {
+    background-color: #007bb5;
+}
+
+@media (max-width: 768px) {
+    .product-list-page {
+        padding: 10px;
+        max-width: 100%;
+    }
+
+    .product-list-page table {
+        font-size: 0.9em;
+    }
+
+    .product-list-page button {
+        padding: 8px 15px;
+    }
+
+    .product-list-page h1 {
+        font-size: 1.5em;
+    }
+}
